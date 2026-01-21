@@ -6,6 +6,7 @@ Sign Up with roles (admin,employee,manager)
 	c. Create Task(title,description,due date, status)
 	d. List Tasks with CRUD
 
+
 2. Manager
 	a. login=>redirect on dashboad and display links :Dahboard | Tasks
 	b. All Tasks list with Action: Assign Task
@@ -13,8 +14,6 @@ Sign Up with roles (admin,employee,manager)
 3. Employee
 	a. Display all 	Assigned task list
 	b. Update task status
-
-
 
 4 Run Project
     php artisan serve
