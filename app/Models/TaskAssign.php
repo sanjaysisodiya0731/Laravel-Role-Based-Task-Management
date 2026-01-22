@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class TaskAssign extends Model
 {
-        /**
+    /**
      * The table associated with the model.
      *
      * @var string|null
@@ -26,7 +26,7 @@ class TaskAssign extends Model
         'assigned_by',
     ];
 
-    /* CReate relationship */
+    /* Create relationship */
     public function task(){
         return $this->hasOne(Task::class, 'id', 'task_id');
     }

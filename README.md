@@ -70,4 +70,9 @@ Employee can manage assigned tasks.
 ## ⚙️ Run Project
 
 ```bash
+php artisan migrate:fresh --seed
 php artisan serve
+
+## For admin login
+email:    admin@example.com
+password: 12345678

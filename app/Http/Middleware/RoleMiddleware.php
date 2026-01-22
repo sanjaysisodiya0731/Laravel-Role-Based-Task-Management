@@ -16,7 +16,7 @@ class RoleMiddleware
      */
     public function handle(Request $request, Closure $next, ...$roles): Response
     {
-        // auth check और role match
+        // authentication check and role match
         if (!Auth::check() || !in_array(Auth::user()->role, $roles)) {
             abort(403, 'Unauthorized');
         }
